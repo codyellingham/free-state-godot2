@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://creynfcmaigxr"]
+
+[ext_resource type="Texture2D" uid="uid://bb44c46eag44i" path="res://assets/tab-engineer.png" id="1_3jgli"]
+[ext_resource type="Texture2D" uid="uid://rjd0ohaga01g" path="res://tab-solar-field.png" id="2_n3g36"]
+[ext_resource type="Script" path="res://assets/TabEngineer.gd" id="4_nqyfw"]
+
+[node name="Panel" type="Node2D"]
+
+[node name="PanelBox" type="ColorRect" parent="."]
+offset_left = -49.0
+offset_top = -52.0
+offset_right = 131.0
+offset_bottom = 83.0
+color = Color(0.442911, 0.442911, 0.442911, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PanelBox"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 5.0
+offset_right = 167.0
+offset_bottom = 29.0
+text = "FREE STATE"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="PanelBox"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 36.0
+offset_right = 169.0
+offset_bottom = 60.0
+text = "1000"
+
+[node name="TabSolar" type="Sprite2D" parent="PanelBox"]
+position = Vector2(132, 100)
+texture = ExtResource("2_n3g36")
+
+[node name="PanelBackground" type="Sprite2D" parent="PanelBox"]
+position = Vector2(49, 52)
+
+[node name="TabEngineer" type="Sprite2D" parent="PanelBox" groups=["TabEngineer"]]
+position = Vector2(48, 100)
+texture = ExtResource("1_3jgli")
+script = ExtResource("4_nqyfw")

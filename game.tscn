@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://bcudjeeake8ga"]
+[gd_scene load_steps=9 format=3 uid="uid://bcudjeeake8ga"]
 
 [ext_resource type="Script" path="res://Scripts/game.gd" id="1_73du1"]
 [ext_resource type="Texture2D" uid="uid://1wfka5gju68u" path="res://base-grass.png" id="2_xvkkw"]
 [ext_resource type="Script" path="res://SelectDraw.gd" id="3_e3cbj"]
 [ext_resource type="PackedScene" uid="uid://btnk2x5r2knf2" path="res://unit.tscn" id="4_xuvjn"]
+[ext_resource type="PackedScene" uid="uid://creynfcmaigxr" path="res://assets/panel.tscn" id="5_v8x8w"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_kmew3"]
 
@@ -47,11 +48,20 @@ layer_0/tile_data = PackedInt32Array(-131068, 196608, 1, -65532, 196608, 2, 4, 1
 [node name="SelectDraw" type="Node2D" parent="."]
 script = ExtResource("3_e3cbj")
 
-[node name="Unit" parent="." instance=ExtResource("4_xuvjn")]
+[node name="Units" type="TileMap" parent="."]
+y_sort_enabled = true
+format = 2
+layer_0/y_sort_enabled = true
+
+[node name="Unit" parent="Units" instance=ExtResource("4_xuvjn")]
 position = Vector2(466, 197)
 
-[node name="Unit2" parent="." instance=ExtResource("4_xuvjn")]
-position = Vector2(690, 513)
+[node name="Unit2" parent="Units" instance=ExtResource("4_xuvjn")]
+position = Vector2(396, 639)
 
-[node name="Unit3" parent="." instance=ExtResource("4_xuvjn")]
-position = Vector2(932, 243)
+[node name="Unit3" parent="Units" instance=ExtResource("4_xuvjn")]
+position = Vector2(935, 662)
+
+[node name="Panel" parent="." instance=ExtResource("5_v8x8w")]
+z_as_relative = false
+position = Vector2(1785, 55)

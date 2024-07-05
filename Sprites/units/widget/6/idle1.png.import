@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvl5663ey5o57"
-path="res://.godot/imported/widget_left1.png-c00c923350ad4e9d86f6334c50e9cf3b.ctex"
+uid="uid://dmy411dkelqfd"
+path="res://.godot/imported/idle1.png-48af44c7b46276e5916a8b640b4185b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/units/widget/widget_left1.png"
-dest_files=["res://.godot/imported/widget_left1.png-c00c923350ad4e9d86f6334c50e9cf3b.ctex"]
+source_file="res://Sprites/units/widget/6/idle1.png"
+dest_files=["res://.godot/imported/idle1.png-48af44c7b46276e5916a8b640b4185b3.ctex"]
 
 [params]
 

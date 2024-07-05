@@ -1,33 +1,35 @@
-[gd_scene load_steps=6 format=3 uid="uid://btnk2x5r2knf2"]
+[gd_scene load_steps=5 format=3 uid="uid://btnk2x5r2knf2"]
 
-[ext_resource type="SpriteFrames" uid="uid://cklefvm35bdce" path="res://frames/widget_left.tres" id="1_mg0mj"]
 [ext_resource type="Script" path="res://Scripts/units.gd" id="1_n6t4l"]
-[ext_resource type="Texture2D" uid="uid://dvg2jt0p7luih" path="res://Sprites/units/widget/unit-selected.png" id="2_74mtd"]
+[ext_resource type="SpriteFrames" uid="uid://bpknd0ibqxh8w" path="res://Sprites/units/widget/widget.tres" id="3_6pv3q"]
+[ext_resource type="Texture2D" uid="uid://dvg2jt0p7luih" path="res://Sprites/units/unit-selected.png" id="3_nd24g"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_add6b"]
-radius = 32.0
-
-[sub_resource type="ImageTexture" id="ImageTexture_axeap"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x51fp"]
+size = Vector2(48, 48)
 
 [node name="Unit" type="CharacterBody2D"]
 script = ExtResource("1_n6t4l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 4)
-shape = SubResource("CircleShape2D_add6b")
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_x51fp")
 
 [node name="UnitSelected" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(0, 1)
-texture = ExtResource("2_74mtd")
+scale = Vector2(3, 3)
 
 [node name="Selected" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(0, 1)
-texture = SubResource("ImageTexture_axeap")
+scale = Vector2(3, 3)
+texture = ExtResource("3_nd24g")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
 position = Vector2(1, 1)
-sprite_frames = ExtResource("1_mg0mj")
-animation = &"move"
-autoplay = "move"
-frame_progress = 0.0513645
+scale = Vector2(3, 3)
+sprite_frames = ExtResource("3_6pv3q")
+animation = &"1_idle"
+autoplay = "1_idle"

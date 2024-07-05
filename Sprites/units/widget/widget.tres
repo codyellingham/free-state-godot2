@@ -1,0 +1,252 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bpknd0ibqxh8w"]
+
+[ext_resource type="Texture2D" uid="uid://dmy411dkelqfd" path="res://Sprites/units/widget/6/idle1.png" id="1_frisr"]
+[ext_resource type="Texture2D" uid="uid://c0qdpqmm3a63x" path="res://Sprites/units/widget/6/idle2.png" id="2_k48rf"]
+[ext_resource type="Texture2D" uid="uid://ixbququu4saa" path="res://Sprites/units/widget/2/idle1.png" id="3_a3pjn"]
+[ext_resource type="Texture2D" uid="uid://0t2o1q8hc1kp" path="res://Sprites/units/widget/2/idle2.png" id="4_7j4xa"]
+[ext_resource type="Texture2D" uid="uid://saryo62dm5si" path="res://Sprites/units/widget/3/idle1.png" id="5_fbman"]
+[ext_resource type="Texture2D" uid="uid://2x5b0riapbib" path="res://Sprites/units/widget/3/idle2.png" id="6_uni0d"]
+[ext_resource type="Texture2D" uid="uid://bpyl2o54vqcai" path="res://Sprites/units/widget/4/idle1.png" id="7_y8luh"]
+[ext_resource type="Texture2D" uid="uid://dbghnughhyhg0" path="res://Sprites/units/widget/4/idle2.png" id="8_7iqiy"]
+[ext_resource type="Texture2D" uid="uid://3v7skrmol5ks" path="res://Sprites/units/widget/5/idle1.png" id="9_cmbrh"]
+[ext_resource type="Texture2D" uid="uid://chb7vphuldmec" path="res://Sprites/units/widget/5/idle2.png" id="10_608xi"]
+[ext_resource type="Texture2D" uid="uid://ckx3rcty1maiw" path="res://Sprites/units/widget/7/idle1.png" id="11_qc3gi"]
+[ext_resource type="Texture2D" uid="uid://b2n2eqitffuts" path="res://Sprites/units/widget/7/idle2.png" id="12_flqes"]
+[ext_resource type="Texture2D" uid="uid://cgcksnshyp0x" path="res://Sprites/units/widget/8/idle1.png" id="13_d1yoa"]
+[ext_resource type="Texture2D" uid="uid://cv5gnk1brf6vx" path="res://Sprites/units/widget/8/idle2.png" id="14_e8hb5"]
+
+[resource]
+resource_name = "widget_left"
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_k48rf")
+}],
+"loop": true,
+"name": &"1_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a3pjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7j4xa")
+}],
+"loop": true,
+"name": &"2_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fbman")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_uni0d")
+}],
+"loop": true,
+"name": &"3_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_y8luh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7iqiy")
+}],
+"loop": true,
+"name": &"4_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmbrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_608xi")
+}],
+"loop": true,
+"name": &"5_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_frisr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_k48rf")
+}],
+"loop": true,
+"name": &"6_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qc3gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_flqes")
+}],
+"loop": true,
+"name": &"7_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1yoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_e8hb5")
+}],
+"loop": true,
+"name": &"8_idle",
+"speed": 5.0
+}]
